@@ -16,6 +16,7 @@ __version__ = '0.2.0'
 
 PLURALS = [
     (r"(?i)(quiz)$", r'\1zes'),
+    (r"(?i)^(whole)$", r'\1'),
     (r"(?i)^(oxen)$", r'\1'),
     (r"(?i)^(ox)$", r'\1en'),
     (r"(?i)(m|l)ice$", r'\1ice'),
